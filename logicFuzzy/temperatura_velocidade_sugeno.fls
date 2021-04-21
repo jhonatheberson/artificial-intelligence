@@ -1,0 +1,56 @@
+# sciFLT scilab Fuzzy Logic Toolbox
+<REVISION>
+ <revision>@REV@
+
+<DESCRIPTION>
+ <name>Temp_vel_sugeno
+ <comment>NewComment
+ <type>ts
+ <SNorm>asum
+ <SNormPar>0
+ <TNorm>aprod
+ <TNormPar>0
+ <Comp>one
+ <CompPar>0
+ <ImpMethod>prod
+ <AggMethod>max
+ <defuzzMethod>wtsum
+
+<INPUT>
+ <name>Temperatura
+ <range>-11 51
+  <mf_name>muito_frio
+   <mf_type>trapmf
+   <mf_par>-11 -10 10 18
+  <mf_name>frio
+   <mf_type>trimf
+   <mf_par>11 18 24
+  <mf_name>quente
+   <mf_type>trimf
+   <mf_par>18 24 31
+  <mf_name>muito_quente
+   <mf_type>trapmf
+   <mf_par>24 34 50 51
+
+<OUTPUT>
+ <name>Velocidade
+ <range>-1 101
+  <mf_name>zero
+   <mf_type>constant
+   <mf_par>0.0
+  <mf_name>baixa
+   <mf_type>constant
+   <mf_par>20
+  <mf_name>media
+   <mf_type>constant
+   <mf_par>50
+  <mf_name>alta
+   <mf_type>constant
+   <mf_par>80
+
+<RULE>
+1 1 1 1.0
+2 2 1 1.0
+3 3 1 1.0
+4 4 1 1.0
+

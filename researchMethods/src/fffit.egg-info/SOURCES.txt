@@ -1,0 +1,17 @@
+README.md
+setup.py
+src/fffit/__init__.py
+src/fffit/exemplo_simplex.py
+src/fffit/ez_map.py
+src/fffit/ga.py
+src/fffit/pso.py
+src/fffit/py_mpi.py
+src/fffit/script.py
+src/fffit/server.py
+src/fffit/simplex.py
+src/fffit.egg-info/PKG-INFO
+src/fffit.egg-info/SOURCES.txt
+src/fffit.egg-info/dependency_links.txt
+src/fffit.egg-info/not-zip-safe
+src/fffit.egg-info/requires.txt
+src/fffit.egg-info/top_level.txt

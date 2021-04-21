@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: fffit
+Version: 0.1
+Summary: A meta-heuristic package to fit molecular dynamics forcefields to data.
+Home-page: UNKNOWN
+Author: Elton Carvalho, Jhonat Sousa
+Author-email: elton.carvalho@ect.ufrn.br
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: PSO,particle swarm optimization,molecular dynamics,force field
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6

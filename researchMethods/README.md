@@ -3,36 +3,41 @@
 </h1>
 
 <h1 align="center">
-   🙂 <a href="#"> Artificial Intelligence </a>
+   🙂 <a href="#"> FFFit </a>
 </h1>
 
 <h3 align="center">
-    Artificial Intelligence using the OpenCV, Keras, library, TensorFlow
+    Ajuste heurístico de parâmetros de campo de força para
+dinâmica molecular é uma implementação de algoritmos de heurística de busca
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jhonatheberson/digital-image-processing?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/eltonfc-research/FFFit?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jhonatheberson/digital-image-processing">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/eltonfc-research/FFFit">
 
-  <!-- <a href="https://www.twitter.com/tgmarinho/">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Ftgmarinho%2FREADME-ecoleta">
+  <!-- <a href="https://www.twitter.com/eltonfc-research/">
+    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fjhonatheberson%2FREADME-ecoleta">
   </a> -->
 
-  <a href="https://github.com/jhonatheberson/easy-church/releases">
-        <img alt="GitHub release" src="https://raster.shields.io/github/v/release/jhonatheberson/template.svg">
+  <a href="https://github.com/eltonfc-research/FFFit/releases">
+        <img alt="GitHub release" src="https://raster.shields.io/github/v/release/eltonfc-research/template.svg">
   </a>
-  <a href="https://github.com/jhonatheberson/digital-image-processing/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jhonatheberson/digital-image-processing">
+  <a href="https://github.com/eltonfc-research/FFFit/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eltonfc-research/FFFit">
   </a>
 
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/jhonatheberson/digital-image-processing/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/jhonatheberson/digital-image-processing?style=social">
+   <a href="https://github.com/eltonfc-research/FFFit/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/eltonfc-research/FFFit?style=social">
   </a>
 
   <a href="https://github.com/jhonatheberson">
     <img alt="made by JhonatHeberson" src="https://img.shields.io/badge/made%20by-jhonatheberson-%237519C1">
+  </a>
+
+  <a href="https://github.com/eltonfc-research">
+    <img alt="made by eltonfc" src="https://img.shields.io/badge/made%20by-eltonfc-research-%237519C1">
   </a>
   
   <!-- <a href="https://blog.rocketseat.com.br/">
@@ -84,13 +89,13 @@
 
 ---
 
-## Layout
+<!-- ## Layout
 
 The application layout is available on Figma:
 
 <a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
-</a>
+  <img alt="Made by jhonatheberson" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+</a> -->
 
 ### Mobile
 
@@ -114,9 +119,9 @@ The application layout is available on Figma:
 
 This project is divided into three parts:
 
-1. Backend (server folder)
-2. Frontend (web folder)
-3. Mobile (mobile folder)
+1. CLI (server folder)
+<!-- 2. Frontend (web folder)
+3. Mobile (mobile folder) -->
 
 Both Frontend and Mobile need the Backend to be running to work.
 
@@ -131,7 +136,7 @@ In addition, it is good to have an editor to work with the code like [VSCode](ht
 ```bash
 
 # Clone this repository
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+$ git clone git@github.com:eltonfc-research/FFFit.git
 
 # Access the project folder cmd/terminal
 $ cd README-ecoleta
@@ -150,15 +155,15 @@ $ npm run dev:server
 ```
 
 <p align="center">
-  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://github.com/eltonfc-research/FFFit/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
-#### Running the web application (Frontend)
+<!-- #### Running the web application (Frontend)
 
 ```bash
 
 # Clone this repository
-$ git clone git@github.com: tgmarinho / README-ecoleta.git
+$ git clone git@github.com: jhonatheberson / README-ecoleta.git
 
 # Access the project folder in your terminal
 $ cd README-ecoleta
@@ -176,7 +181,7 @@ $ npm run start
 
 ```
 
----
+--- -->
 
 ## Tech Stack
 
@@ -191,9 +196,9 @@ The following tools were used in the construction of the project:
 - **[React Leaflet](https://react-leaflet.js.org/)**
 - **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
 
-> See the file [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
+> See the file [package.json](https://github.com/jhonatheberson/README-ecoleta/blob/master/web/package.json)
 
-#### [](https://github.com/tgmarinho/Ecoleta#server-nodejs--typescript)**Server** ([NodeJS](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/))
+#### [](https://github.com/jhonatheberson/Ecoleta#server-nodejs--typescript)**Server** ([NodeJS](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/))
 
 - **[Express](https://expressjs.com/)**
 - **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
@@ -205,9 +210,9 @@ The following tools were used in the construction of the project:
 - **[Celebrate](https://github.com/arb/celebrate)**
 - **[Joi](https://github.com/hapijs/joi)**
 
-> See the file [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
+> See the file [package.json](https://github.com/jhonatheberson/README-ecoleta/blob/master/server/package.json)
 
-#### [](https://github.com/tgmarinho/Ecoleta#mobile-react-native--typescript)**Mobile** ([React Native](http://www.reactnative.com/) + [TypeScript](https://www.typescriptlang.org/))
+#### [](https://github.com/jhonatheberson/Ecoleta#mobile-react-native--typescript)**Mobile** ([React Native](http://www.reactnative.com/) + [TypeScript](https://www.typescriptlang.org/))
 
 - **[Expo](https://expo.io/)**
 - **[Expo Google Fonts](https://github.com/expo/google-fonts)**
@@ -219,9 +224,9 @@ The following tools were used in the construction of the project:
 - **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
 - **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
 
-> See the file [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/mobile/package.json)
+> See the file [package.json](https://github.com/jhonatheberson/README-ecoleta/blob/master/mobile/package.json)
 
-#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
+#### [](https://github.com/jhonatheberson/Ecoleta#utilit%C3%A1rios)**Utilitários**
 
 - Prototype: **[Figma](https://www.figma.com/)** → **[Protótipo (Ecoleta)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
 - API: **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)** → **[API de UFs](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**, **[API de Municípios](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
@@ -275,13 +280,20 @@ You are an awesome team! :)
 
 ## Author
 
+<div style="">
 <a href="https://github.com/jhonatheberson">
  <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/42505240?s=460&u=20d12ba68e5b22a99167d26cb85d28815599d08c&v=4" width="100px;" alt="Jhonat Heberson"/>
  <br />
  <sub><b>Jhonat Heberson</b></sub></a> <a href="https://github.com/jhonatheberson" title="Github"></a>
  <br />
+<a href="https://github.com/jhonatheberson">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/42505240?s=460&u=20d12ba68e5b22a99167d26cb85d28815599d08c&v=4" width="100px;" alt="Jhonat Heberson"/>
+ <br />
+ <sub><b>Jhonat Heberson</b></sub></a> <a href="https://github.com/jhonatheberson" title="Github"></a>
+ <br />
+ </div>
 
-<!-- [![Twitter Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/tgmarinho)  -->
+<!-- [![Twitter Badge](https://img.shields.io/badge/-@jhonatheberson-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/jhonatheberson)](https://twitter.com/jhonatheberson)  -->
 
 [![Linkedin Badge](https://img.shields.io/badge/-Jhonat-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jhonat-heberson-64816616a/)](https://www.linkedin.com/in/jhonat-heberson-64816616a/)
 [![Gmail Badge](https://img.shields.io/badge/-jhonatheberson@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jhonatheberson@gmail.com)](mailto:jhonatheberson@gmail.com)
